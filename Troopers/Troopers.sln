@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Troopers", "Troopers\Troopers.csproj", "{2B4C5188-55B0-4536-B551-57275F17CDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jornal", "..\Jornal\Jornal.csproj", "{CA1B8B20-DCD8-4FAD-A73E-AE1129AC24AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4C5188-55B0-4536-B551-57275F17CDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4C5188-55B0-4536-B551-57275F17CDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4C5188-55B0-4536-B551-57275F17CDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4C5188-55B0-4536-B551-57275F17CDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B8B20-DCD8-4FAD-A73E-AE1129AC24AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B8B20-DCD8-4FAD-A73E-AE1129AC24AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B8B20-DCD8-4FAD-A73E-AE1129AC24AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B8B20-DCD8-4FAD-A73E-AE1129AC24AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B671B1-8F04-4A6D-8F36-FD8D4CED9E75}
+	EndGlobalSection
+EndGlobal

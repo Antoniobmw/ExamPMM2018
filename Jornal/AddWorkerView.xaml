@@ -1,0 +1,27 @@
+﻿<Window x:Class="Jornal.AddWorkerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jornal"
+        mc:Ignorable="d"
+        Title="AddWorkerView" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <local:LabelContentUser x:Name="LabelContentName" LabelTextValue="Name"/>
+            <local:LabelContentUser x:Name="LabelContentSurname" LabelTextValue="Surname"/>
+            <local:LabelContentUser x:Name="LabelContentId" LabelTextValue="Id"/>
+            <local:LabelContentUser x:Name="LabelContentCostHour" LabelTextValue="CostHour"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Aceptar" Margin="0,0,16,0" Height="20" Click="ButtonAcceptClick"/>
+            <Button Content="Cancelar" Height="20" Margin="0,0,16,0" Click="ButtonCancelClick"/>
+        </StackPanel>
+    </Grid>
+</Window>
